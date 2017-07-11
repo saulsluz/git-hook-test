@@ -1,0 +1,30 @@
+{
+  "pre-commit": [
+    "test"
+  ],
+  "name": "git-hook-test",
+  "version": "1.0.0",
+  "description": "a sample to git hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulsluz/git-hook-test.git"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "sample"
+  ],
+  "author": "Saul Luz <saulsluz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saulsluz/git-hook-test/issues"
+  },
+  "homepage": "https://github.com/saulsluz/git-hook-test#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
